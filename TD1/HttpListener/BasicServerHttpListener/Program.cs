@@ -45,6 +45,7 @@ namespace BasicServerHTTPlistener
             {
                 Console.WriteLine("Syntax error: the call must contain at least one web server url as argument");
             }
+           
             listener.Start();
             foreach (string s in args)
             {
@@ -72,7 +73,9 @@ namespace BasicServerHTTPlistener
                 HttpListenerResponse response = context.Response;
 
                 // Construct a response.
-                string responseString = "<HTML><BODY> Hello world!</BODY></HTML>";
+                Header header = new Header(request.Headers);
+                String headers = header.values();
+                string responseString = "<HTML><BODY>"+ headers +"</BODY></HTML>";
                 byte[] buffer = System.Text.Encoding.UTF8.GetBytes(responseString);
                 // Get a response stream and write the response to it.
                 response.ContentLength64 = buffer.Length;
