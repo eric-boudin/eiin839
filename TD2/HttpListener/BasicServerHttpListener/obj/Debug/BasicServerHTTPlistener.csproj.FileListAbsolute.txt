@@ -32,3 +32,10 @@ E:\Ecole\4A\S8\Web services\eiin839\TD1\HttpListener\BasicServerHttpListener\obj
 E:\Ecole\4A\S8\Web services\eiin839\TD1\HttpListener\BasicServerHttpListener\obj\Debug\BasicServerHTTPlistener.csproj.CoreCompileInputs.cache
 E:\Ecole\4A\S8\Web services\eiin839\TD1\HttpListener\BasicServerHttpListener\obj\Debug\ConsoleApp3.exe
 E:\Ecole\4A\S8\Web services\eiin839\TD1\HttpListener\BasicServerHttpListener\obj\Debug\ConsoleApp3.pdb
+E:\Ecole\4A\S8\Web services\eiin839\TD2\HttpListener\BasicServerHttpListener\bin\Debug\ConsoleApp3.exe.config
+E:\Ecole\4A\S8\Web services\eiin839\TD2\HttpListener\BasicServerHttpListener\bin\Debug\ConsoleApp3.exe
+E:\Ecole\4A\S8\Web services\eiin839\TD2\HttpListener\BasicServerHttpListener\bin\Debug\ConsoleApp3.pdb
+E:\Ecole\4A\S8\Web services\eiin839\TD2\HttpListener\BasicServerHttpListener\obj\Debug\BasicServerHTTPlistener.csprojAssemblyReference.cache
+E:\Ecole\4A\S8\Web services\eiin839\TD2\HttpListener\BasicServerHttpListener\obj\Debug\BasicServerHTTPlistener.csproj.CoreCompileInputs.cache
+E:\Ecole\4A\S8\Web services\eiin839\TD2\HttpListener\BasicServerHttpListener\obj\Debug\ConsoleApp3.exe
+E:\Ecole\4A\S8\Web services\eiin839\TD2\HttpListener\BasicServerHttpListener\obj\Debug\ConsoleApp3.pdb
