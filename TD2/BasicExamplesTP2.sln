@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalExeCall", "External
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicWebServerUrlParser", "BasicWebServer\BasicWebServerUrlParser.csproj", "{B6A28AAE-DA86-41D3-8A15-9B529A3AD71C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDynamic", "WebDynamic\WebDynamic.csproj", "{72D49371-2B24-42AF-87C3-D6C13DE68C7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo5", "Exo5\Exo5.csproj", "{FC09B3F6-CA82-48B5-926B-B7C06E0CD970}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{B6A28AAE-DA86-41D3-8A15-9B529A3AD71C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6A28AAE-DA86-41D3-8A15-9B529A3AD71C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6A28AAE-DA86-41D3-8A15-9B529A3AD71C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72D49371-2B24-42AF-87C3-D6C13DE68C7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72D49371-2B24-42AF-87C3-D6C13DE68C7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72D49371-2B24-42AF-87C3-D6C13DE68C7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72D49371-2B24-42AF-87C3-D6C13DE68C7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC09B3F6-CA82-48B5-926B-B7C06E0CD970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC09B3F6-CA82-48B5-926B-B7C06E0CD970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC09B3F6-CA82-48B5-926B-B7C06E0CD970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC09B3F6-CA82-48B5-926B-B7C06E0CD970}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

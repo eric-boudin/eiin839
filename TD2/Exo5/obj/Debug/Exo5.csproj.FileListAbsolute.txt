@@ -1,0 +1,6 @@
+E:\Ecole\4A\S8\Web services\eiin839\TD2\Exo5\bin\Debug\Exo5.exe.config
+E:\Ecole\4A\S8\Web services\eiin839\TD2\Exo5\bin\Debug\Exo5.exe
+E:\Ecole\4A\S8\Web services\eiin839\TD2\Exo5\bin\Debug\Exo5.pdb
+E:\Ecole\4A\S8\Web services\eiin839\TD2\Exo5\obj\Debug\Exo5.csproj.CoreCompileInputs.cache
+E:\Ecole\4A\S8\Web services\eiin839\TD2\Exo5\obj\Debug\Exo5.exe
+E:\Ecole\4A\S8\Web services\eiin839\TD2\Exo5\obj\Debug\Exo5.pdb
