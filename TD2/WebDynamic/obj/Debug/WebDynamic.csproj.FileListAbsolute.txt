@@ -1,0 +1,7 @@
+E:\Ecole\4A\S8\Web services\eiin839\TD2\WebDynamic\obj\Debug\WebDynamic.csprojAssemblyReference.cache
+E:\Ecole\4A\S8\Web services\eiin839\TD2\WebDynamic\obj\Debug\WebDynamic.csproj.CoreCompileInputs.cache
+E:\Ecole\4A\S8\Web services\eiin839\TD2\WebDynamic\bin\Debug\WebDynamic.exe.config
+E:\Ecole\4A\S8\Web services\eiin839\TD2\WebDynamic\bin\Debug\WebDynamic.exe
+E:\Ecole\4A\S8\Web services\eiin839\TD2\WebDynamic\bin\Debug\WebDynamic.pdb
+E:\Ecole\4A\S8\Web services\eiin839\TD2\WebDynamic\obj\Debug\WebDynamic.exe
+E:\Ecole\4A\S8\Web services\eiin839\TD2\WebDynamic\obj\Debug\WebDynamic.pdb
