@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myFirstRest", "myFirstRest\myFirstRest.csproj", "{B753A067-AE19-49B9-8EB7-6BD251D5C92C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StationService", "StationService\StationService.csproj", "{C3F543EE-2C8F-40EE-9251-D46027B3256C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B753A067-AE19-49B9-8EB7-6BD251D5C92C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B753A067-AE19-49B9-8EB7-6BD251D5C92C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B753A067-AE19-49B9-8EB7-6BD251D5C92C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B753A067-AE19-49B9-8EB7-6BD251D5C92C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3F543EE-2C8F-40EE-9251-D46027B3256C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3F543EE-2C8F-40EE-9251-D46027B3256C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3F543EE-2C8F-40EE-9251-D46027B3256C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3F543EE-2C8F-40EE-9251-D46027B3256C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BBA8C47-0CE4-4365-8E9F-D9A2D8657DB7}
+	EndGlobalSection
+EndGlobal
