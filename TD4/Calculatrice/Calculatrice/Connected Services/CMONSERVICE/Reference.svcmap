@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d8ae1445-5d14-4696-8a77-367856676e5a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/MathLibrary/Service1/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MathsOperations.wsdl" MetadataType="Wsdl" ID="8da6b75e-6dfb-4621-bc0e-4e50726a6819" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/MathLibrary/Service1/?wsdl" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="97c99e0b-1a10-40b8-b440-551016bb187d" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/MathLibrary/Service1/?xsd=xsd0" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="bf841ea4-a2ba-4994-ae05-93365256d013" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/MathLibrary/Service1/?disco" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="5b6163e4-8fbe-4f4c-a081-6b7a87b3b45c" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/MathLibrary/Service1/?xsd=xsd1" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="42fca035-b7f4-47e6-b97f-e73672a4a3a9" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/MathLibrary/Service1/?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

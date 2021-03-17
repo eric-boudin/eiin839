@@ -50,18 +50,37 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="Connected Services\CMONSERVICE\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Connected Services\calculator\calculator.wsdl" />
+    <None Include="Connected Services\CMONSERVICE\Calculatrice.CMONSERVICE.CompositeType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CMONSERVICE\item.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\CMONSERVICE\item1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\CMONSERVICE\item2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\CMONSERVICE\MathsOperations.wsdl" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Connected Services\calculator\" />
+    <WCFMetadataStorage Include="Connected Services\CMONSERVICE\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Connected Services\calculator\configuration91.svcinfo" />
@@ -71,6 +90,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Connected Services\calculator\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\CMONSERVICE\item.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\CMONSERVICE\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\CMONSERVICE\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\CMONSERVICE\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
