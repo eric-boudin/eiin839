@@ -59,7 +59,7 @@
       <wsdl:output wsaw:Action="http://tempuri.org/IMathsOperations/GetDataUsingDataContractResponse" message="tns:IMathsOperations_GetDataUsingDataContract_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
-  <wsdl:binding name="BasicHttpBinding_IMathsOperations" type="tns:IMathsOperations">
+  <wsdl:binding name="oui" type="tns:IMathsOperations">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
     <wsdl:operation name="Add">
       <soap:operation soapAction="http://tempuri.org/IMathsOperations/Add" style="document" />
@@ -108,7 +108,7 @@
     </wsdl:operation>
   </wsdl:binding>
   <wsdl:service name="MathsOperations">
-    <wsdl:port name="BasicHttpBinding_IMathsOperations" binding="tns:BasicHttpBinding_IMathsOperations">
+    <wsdl:port name="oui" binding="tns:oui">
       <soap:address location="http://localhost:8733/Design_Time_Addresses/MathLibrary/Service1/" />
     </wsdl:port>
   </wsdl:service>
