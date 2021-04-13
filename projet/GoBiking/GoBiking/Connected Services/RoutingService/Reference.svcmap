@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="68bf2078-1e61-4c6d-850a-0d7190f2d1f8" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/Routing/Service1/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="RoutingServiceImpl.wsdl" MetadataType="Wsdl" ID="2887734c-55cc-48b3-bf12-f9e3d4a8d0b3" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Routing/Service1/?wsdl" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="52736f6d-6534-4b27-8d8d-11becc5a6683" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Routing/Service1/?disco" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="98d900e3-3728-46a4-a8ea-98e87560b72b" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Routing/Service1/?xsd=xsd0" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="99bc5ee1-5bcd-49b3-a35d-36a5f42a7533" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Routing/Service1/?xsd=xsd1" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="8b56b936-6bde-4afa-89ce-5f06834834d8" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Routing/Service1/?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

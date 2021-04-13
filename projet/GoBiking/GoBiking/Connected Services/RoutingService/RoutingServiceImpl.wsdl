@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="RoutingServiceImpl" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/Routing/Service1/?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/Routing/Service1/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/Routing/Service1/?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IRoutingService_getStationByCityName_InputMessage">
+    <wsdl:part name="parameters" element="tns:getStationByCityName" />
+  </wsdl:message>
+  <wsdl:message name="IRoutingService_getStationByCityName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getStationByCityNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRoutingService_getDirection_InputMessage">
+    <wsdl:part name="parameters" element="tns:getDirection" />
+  </wsdl:message>
+  <wsdl:message name="IRoutingService_getDirection_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getDirectionResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IRoutingService">
+    <wsdl:operation name="getStationByCityName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRoutingService/getStationByCityName" message="tns:IRoutingService_getStationByCityName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRoutingService/getStationByCityNameResponse" message="tns:IRoutingService_getStationByCityName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getDirection">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRoutingService/getDirection" message="tns:IRoutingService_getDirection_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRoutingService/getDirectionResponse" message="tns:IRoutingService_getDirection_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IRoutingService" type="tns:IRoutingService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getStationByCityName">
+      <soap:operation soapAction="http://tempuri.org/IRoutingService/getStationByCityName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDirection">
+      <soap:operation soapAction="http://tempuri.org/IRoutingService/getDirection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="RoutingServiceImpl">
+    <wsdl:port name="BasicHttpBinding_IRoutingService" binding="tns:BasicHttpBinding_IRoutingService">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/Routing/Service1/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
