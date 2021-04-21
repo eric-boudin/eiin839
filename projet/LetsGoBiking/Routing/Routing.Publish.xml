@@ -1,0 +1,23 @@
+<publishData>
+  <publishTarget publishUrl="E:\Ecole\SI4\S8\Web services\eiin839\projet\Executables\">
+    <file relUrl="Web.config" publishTime="04/14/2021 14:02:34" />
+    <file relUrl="JCDecauxItem.cs" publishTime="04/12/2021 21:38:22" />
+    <file relUrl="Availability.cs" publishTime="04/11/2021 16:37:30" />
+    <file relUrl="packages.config" publishTime="04/12/2021 17:59:18" />
+    <file relUrl="RoutingServiceImpl.cs" publishTime="04/18/2021 13:08:08" />
+    <file relUrl="Routing.RoutingServiceImpl.svc" publishTime="04/18/2021 14:43:59" />
+    <file relUrl="bin/Newtonsoft.Json.xml" publishTime="03/17/2021 19:58:04" />
+    <file relUrl="bin/Routing.dll" publishTime="04/18/2021 14:04:21" />
+    <file relUrl="bin/Routing.dll.config" publishTime="04/14/2021 14:02:34" />
+    <file relUrl="Position.cs" publishTime="04/12/2021 21:37:14" />
+    <file relUrl="Properties/AssemblyInfo.cs" publishTime="04/12/2021 17:11:20" />
+    <file relUrl="IRoutingService.cs" publishTime="04/13/2021 21:03:28" />
+    <file relUrl="bin/Newtonsoft.Json.dll" publishTime="03/17/2021 20:03:36" />
+    <file relUrl="Stand.cs" publishTime="04/11/2021 16:37:23" />
+    <file relUrl="bin/Routing.pdb" publishTime="04/18/2021 14:04:21" />
+    <file relUrl="IRoutingServiceRest.cs" publishTime="04/14/2021 15:32:35" />
+    <file relUrl="App.config" publishTime="04/14/2021 14:02:34" />
+    <file relUrl="Routing.csproj.user" publishTime="04/12/2021 17:59:21" />
+    <file relUrl="Routing.csproj" publishTime="04/18/2021 14:04:19" />
+  </publishTarget>
+</publishData>

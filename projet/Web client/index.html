@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+  <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/build/ol.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/css/ol.css" type="text/css">
+</head>
+<body>
+	<label for="start">Adresse de départ (sans le code postal et la ville):</label>
+	<input type="text" id="start" name="start" required
+       size="50" value="487 Rue Jean Queillau" /><br /><br />
+
+     <label for="destination">Adresse de destination (sans le code postal et la ville):</label>
+	<input type="text" id="destination" name="destination" required
+       size="50" value="140 avenue Viton"/><br /><br />
+
+	<label for="city">Adresse de destination (sans le code postal et la ville):</label>
+	<input type="text" id="city" name="city" required
+       size="50" value="Marseille"/><br /><br />
+
+	<input type="button" onClick="getDirection()" value="Calcul">
+
+	<div id="map" style="height: 500px; width: 700px;"></div>
+
+
+	<p id="result"> </p>
+
+</body>
+</html>
